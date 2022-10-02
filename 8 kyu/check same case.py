@@ -21,3 +21,6 @@ same_case('A', 's')
 same_case('c', 'B')
 same_case('\t', 'Z')
 same_case('H', ':')
+
+# def same_case(a, b):
+#     return a.isupper() == b.isupper() if a.isalpha() and b.isalpha() else -1
